@@ -14,8 +14,14 @@ your own computer too.
 
 1. On your new repository's page, press the **.** key (full stop). The page becomes an editor: this is
    github.dev, GitHub's own editor.
-2. The first time, the editor asks whether you trust this repository's folder and offers to install the
-   **funground** extension that comes with it. Say yes to both.
+2. The first time only, add the **funground** extension to the editor:
+   press **F1**, type `Install Extension from Location` and choose
+   **Developer: Install Extension from Location...**, then paste this address and press Enter:
+
+       https://funground-hq.github.io/extension/
+
+   If the editor asks whether you trust the extension, say yes. Your browser remembers it, so you do this
+   once, not for every sketchbook.
 3. Open a sketch from the `sketches` folder, for example `first_sketch.py`.
 4. Press **Ctrl+Enter** (**Cmd+Enter** on a Mac), or the ▷ button at the top right. A panel opens
    beside your code and the sketch runs in it. The first time takes a few seconds, while Python loads
@@ -37,7 +43,6 @@ what you changed, and press **Commit & Push**. Your sketch is now saved in your 
 | `sketches/` | Your sketches. Start with `first_sketch.py`, `bounce.py`, `mouse.py`. Add your own: any `.py` file that uses funground |
 | `sketches/data/` | Pictures and sounds your sketches load, such as `f.load_image("data/photo.png")` in `photo.py`, and the tune `hear_and_see.py` plays |
 | `sketches/palette.py` | Not a sketch: colours that `pattern.py` uses with `import palette`. Change them and run `pattern.py` again |
-| `.vscode/extensions/funground/` | The funground extension, which the editor installs from your repository. Leave it as it is |
 
 ## Run the same sketches on your computer
 
@@ -58,5 +63,5 @@ This is a preview of funground 0.2, made for Chrome first.
 ## Licence
 
 The sketches and the files in `sketches/data/` are free to use for anything (CC0, see `LICENSE`).
-The funground extension in `.vscode/extensions/funground/` has its own licence (LGPL 2.1 only), in
-its folder.
+The funground extension is free software under the LGPL 2.1 only; its code is at
+[funground-hq/funground-web](https://github.com/funground-hq/funground-web).
