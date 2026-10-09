@@ -58,5 +58,5 @@ This is a preview of funground 0.2, made for Chrome first.
 ## Licence
 
 The sketches and the files in `sketches/data/` are free to use for anything (CC0, see `LICENSE`).
-The funground extension in `.vscode/extensions/funground/` has its own licence (LGPL 2.1 or later), in
+The funground extension in `.vscode/extensions/funground/` has its own licence (LGPL 2.1 only), in
 its folder.
