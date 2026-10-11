@@ -14,14 +14,11 @@ your own computer too.
 
 1. On your new repository's page, press the **.** key (full stop). The page becomes an editor: this is
    github.dev, GitHub's own editor.
-2. The first time only, add the **funground** extension to the editor:
-   press **F1**, type `Install Extension from Location` and choose
-   **Developer: Install Extension from Location...**, then paste this address and press Enter:
-
-       https://funground-hq.github.io/extension/
-
-   If the editor asks whether you trust the extension, say yes. Your browser remembers it, so you do this
-   once, not for every sketchbook.
+2. The first time only, add the **funground** extension to the editor: open the Extensions view (the
+   four squares on the left), search for **funground** and press **Install**.
+   *Not yet possible: the extension is waiting to be published in the Visual Studio Marketplace. Until
+   then, the steps below are for testers who serve it from their own computer
+   ([how](https://github.com/funground-hq/funground-web/tree/main/vscode-extension#try-it-in-githubdev-or-vscodedev-before-it-is-published)).*
 3. Open a sketch from the `sketches` folder, for example `first_sketch.py`.
 4. Press **Ctrl+Enter** (**Cmd+Enter** on a Mac), or the ▷ button at the top right. A panel opens
    beside your code and the sketch runs in it. The first time takes a few seconds, while Python loads
