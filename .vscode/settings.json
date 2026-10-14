@@ -1,0 +1,5 @@
+{
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportWildcardImportFromLibrary": "none"
+  }
+}
